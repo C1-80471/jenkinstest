@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('build docker image') {
             steps {
-                sh '/usr/bin/docker image build -t <docker hub pravin1015/jenkinsdemo .'
+                sh '/usr/bin/docker image build -t pravin1015/jenkinsdemo .'
             }
         }
         stage ('docker login') {
